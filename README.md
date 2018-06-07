@@ -37,12 +37,25 @@ GET: http://localhost:3001/api/contacts/:id
 
 ##TO UPDATE PRODUCT
 
-http://localhost:3001/api/contacts/:id
+PUT: http://localhost:3001/api/contacts/:id
 
 
 ##TO DELETE PRODUCT
 
-http://localhost:3001/api/contacts/:id
+DELETE: http://localhost:3001/api/contacts/:id
+
+
+##TO ADD PRODUCT TO FAVORITE LIST
+
+POST:  http://localhost:3001/api/favoritelist
+
+
+##TO DISPLAY PRODUCT FROM FAVORITE LIST
+
+GET:  http://localhost:3001/api/favoritelist
+
+
+
 
 
 
